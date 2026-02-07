@@ -1,6 +1,1 @@
-fastapi
-uvicorn
-numpy
-pandas
-scikit-learn
-torch
+uhashring>=2.3
