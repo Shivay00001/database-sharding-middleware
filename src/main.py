@@ -1,5 +1,10 @@
-from src.router import ConsistentHashRouter
-from src.shard_manager import MockShard
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from router import ConsistentHashRouter
+from shard_manager import MockShard
 import time
 
 def main():
